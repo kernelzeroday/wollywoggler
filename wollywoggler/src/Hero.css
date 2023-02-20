@@ -1,0 +1,79 @@
+/* Hero css file */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.hero {
+  background-color: #000;
+  background-image: url('https://images.unsplash.
+    com/photo-1519680773-8b1b0b1b1b1b?ixlib=rb-0.3.5&ixid=eyJhcHB
+    faWQiOjEyMDd9&s=3f8f3f8f3f8f3f8f3f8f3f8f3f8f3f8f&auto=format&fit=crop&w=1350&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.hero__content {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+}
+
+.hero__button {
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  color: #000;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 1rem auto 0;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero__button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
