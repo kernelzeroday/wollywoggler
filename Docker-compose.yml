@@ -1,0 +1,13 @@
+#Docker Compose for React app using Dockerfile in same directory
+version: '3'
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+    # port 3000 on the container is mapped to port 80 on the host
+      - "80:3000"
+    volumes:
+      - .:/app
+    command: npm start
