@@ -2,7 +2,7 @@
 body {
   background-color: #000;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
@@ -25,15 +25,13 @@ a:hover {
 
 .hero {
   background-color: #000;
-  background-image: url('https://images.unsplash.
-    com/photo-1519680773-8b1b0b1b1b1b?ixlib=rb-0.3.5&ixid=eyJhcHB
-    faWQiOjEyMDd9&s=3f8f3f8f3f8f3f8f3f8f3f8f3f8f3f8f&auto=format&fit=crop&w=1350&q=80');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-    width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1519680773-8b1b0b1b1b1b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f8f3f8f3f8f3f8f3f8f3f8f3f8f3f8f&auto=format&fit=crop&w=1350&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 100%;
 }
 
 .hero__content {
@@ -76,4 +74,3 @@ a:hover {
   background-color: #000;
   color: #fff;
 }
-
