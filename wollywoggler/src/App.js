@@ -39,19 +39,4 @@ function WogglerApp() {
 }
 
 
-//Hero page with buttons using components
-function Hero() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Wolly Woggler</h1>
-        <p>Links for discord, social, streaming, and other platforms</p>
-        {/* Use imported hero */}
-        <Hero />
-      </header>
-    </div>
-  );
-}
-
-
 export default Hero;
