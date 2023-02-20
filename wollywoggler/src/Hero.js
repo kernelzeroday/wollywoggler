@@ -8,12 +8,18 @@ function Hero() {
         <div className="hero">
             <h1>Wolly Woggler</h1>
             <p>Links for discord, social, streaming, and other platforms</p>
+            <p></p>
             <div className="hero-links">
                 <a href="https://www.twitch.tv/wollywoggler" target="_blank" rel="noopener noreferrer">Twitch</a>
+                <p></p>
                 <a href="https://www.youtube.com/channel/UC0ZQZ1X1Z1Z1Z1Z1Z1Z1Z1A" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <p></p>
                 <a href="https://www.twitter.com/wollywoggler" target="_blank" rel="noopener noreferrer">Twitter</a>
+                <p></p>
                 <a href="https://www.instagram.com/wollywoggler" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <p></p>
                 <a href="https://www.facebook.com/wollywoggler" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <p></p>
                 <a href="https://www.discord.gg/wollywoggler" target="_blank" rel="noopener noreferrer">Discord</a>
             </div>
         </div>
